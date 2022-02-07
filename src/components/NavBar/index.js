@@ -1,9 +1,19 @@
 // navbar index.js
+import styles from "./styles.css";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div>
-      <h1>This is the NavBar Motherfukkaz!</h1>
+    <div class="container">
+      <div class="containerTwo">
+        <div class="containerThree"></div>
+        <NavLink
+          to="/shop"
+          className="links"
+          style={({ isActive }) => (isActive ? { color: "white" } : undefined)}
+        ></NavLink>
+        <h1>NavBar</h1>
+      </div>
     </div>
   );
 };
