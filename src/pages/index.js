@@ -1,4 +1,4 @@
 // pages/index.js
 
-// export * from "./HomePage";
-// export * from "./DetailPage";
+export * from "./Homepage";
+export * from "./DetailsPage";

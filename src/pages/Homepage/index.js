@@ -1,6 +1,6 @@
-// homepage index.js
+// Homepage index.js
 
-const HomePage = () => {
+const Homepage = () => {
   return (
     <div>
       <h1>This is la Homepage Motherfukkaz!</h1>
@@ -8,4 +8,4 @@ const HomePage = () => {
   );
 };
 
-export { HomePage };
+export { Homepage };
