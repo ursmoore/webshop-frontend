@@ -1,7 +1,11 @@
 // navbar index.js
 
-function App() {
-  return <div>This is the NavBar!</div>;
-}
+const NavBar = () => {
+  return (
+    <div>
+      <h1>This is the NavBar Motherfukkaz!</h1>
+    </div>
+  );
+};
 
-export default App;
+export { NavBar };

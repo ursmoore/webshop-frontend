@@ -1,7 +1,11 @@
 // detailpage index.js
 
-function App() {
-  return <div>This is the detailpage!</div>;
-}
+const DetailsPage = () => {
+  return (
+    <div>
+      <h1>This is the Detailpage Motherfukkaz!</h1>
+    </div>
+  );
+};
 
-export default App;
+export { DetailsPage };

@@ -1,7 +1,11 @@
 // homepage index.js
 
-function App() {
-  return <div>This is the homepage!</div>;
-}
+const HomePage = () => {
+  return (
+    <div>
+      <h1>This is the Detailpage Motherfukkaz!</h1>
+    </div>
+  );
+};
 
-export default App;
+export { HomePage };
