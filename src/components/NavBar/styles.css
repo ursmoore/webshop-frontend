@@ -12,11 +12,8 @@
 }
 
 .green {
-  /* min-width: 30%;
-  max-width: 50%; */
   min-width: min-content;
   max-width: max-content;
-
   height: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -40,7 +37,7 @@
 }
 
 .red {
-  width: 100px;
+  max-width: 100px;
   min-width: min-content;
   height: 40px;
   margin-left: auto;

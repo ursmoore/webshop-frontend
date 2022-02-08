@@ -1,5 +1,5 @@
 // navbar index.js
-import styles from "./styles.css";
+import "./styles.css";
 import { NavLink } from "react-router-dom";
 import { FiShoppingCart, FiHeart, FiUser } from "react-icons/fi";
 

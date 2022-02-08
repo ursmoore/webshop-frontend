@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
+import { ProductCardComponent } from "../ProductCardComponent";
+
 const ShopPageComponent = () => {
   const [products, setProducts] = useState(null);
 
@@ -19,19 +21,8 @@ const ShopPageComponent = () => {
       <p>Here comes the Products!</p>
       {!products
         ? "Loading ..."
-        : products.map((prod, id) => {
-            return (
-              <div key={prod.id}>
-                <h3>{prod.title}</h3>
-                <p>price: ${prod.price}</p>
-                <p>Rating: {prod.rating}</p>
-                <img
-                  style={{ width: 200 }}
-                  src={prod.mainImage}
-                  alt={prod.title}
-                />
-              </div>
-            );
+        : products.map((products, id) => {
+            return <ProductCardComponent key={id} products={products} />;
           })}
     </div>
   );
