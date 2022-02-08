@@ -5,13 +5,15 @@ const ProductCardComponent = (props) => {
 
   return (
     <div className="block" key={id}>
-      <div className="ImageProduct">
-        <img style={{ width: 200 }} src={mainImage} alt={title} />
+      <div className="productImage">
+        <div>
+          <img style={{ width: 200 }} src={mainImage} alt={title} />
+        </div>
       </div>
-      <div className="informationProduct">
-        <h3>{title}</h3>
-        <p>price: ${price}</p>
-        <p>Rating: {rating}</p>
+      <div className="informationProductBlock">
+        <h3 className="productInfo">{title}</h3>
+        <p className="productInfo">price: ${price}</p>
+        <p className="productInfo">Rating: {rating}</p>
       </div>
     </div>
   );

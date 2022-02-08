@@ -1,21 +1,39 @@
 .block {
   width: 100%;
+  /* min-width: min-content; */
   height: 400px;
   background-color: #000000;
   font-family: "Courier New", Courier, monospace;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
-.informationProduct {
+.productImage {
+  background-color: red;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.informationProductBlock {
   background-color: aqua;
   text-align: left;
   margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 
-.ImageProduct {
-  background-color: red;
+.productInfo {
+  background-color: rgb(255, 0, 234);
+  text-align: left;
   margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
