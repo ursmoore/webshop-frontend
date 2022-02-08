@@ -5,9 +5,9 @@ import { FiShoppingCart, FiHeart, FiUser } from "react-icons/fi";
 
 const NavBar = () => {
   return (
-    <div class="container">
-      <div class="green">
-        <div class="links">
+    <div className="container">
+      <div className="green">
+        <div className="links">
           <NavLink
             to="/shop"
             className="links"
@@ -64,8 +64,8 @@ const NavBar = () => {
           </NavLink>
         </div>
       </div>
-      <div class="red">
-        <div class="find">
+      <div className="red">
+        <div className="find">
           <NavLink
             to="/shop"
             className="links"
@@ -77,13 +77,13 @@ const NavBar = () => {
           </NavLink>
         </div>
       </div>
-      <div class="iconsBar">
+      <div className="iconsBar">
         <div>
           <NavLink
             to="/"
             className="icons"
             style={({ isActive }) =>
-              isActive ? { color: "black" } : undefined
+              isActive ? { color: "white" } : undefined
             }
           >
             <FiShoppingCart />
@@ -92,7 +92,7 @@ const NavBar = () => {
             to="/"
             className="icons"
             style={({ isActive }) =>
-              isActive ? { color: "black" } : undefined
+              isActive ? { color: "white" } : undefined
             }
           >
             <FiHeart />
@@ -101,7 +101,7 @@ const NavBar = () => {
             to="/"
             className="icons"
             style={({ isActive }) =>
-              isActive ? { color: "black" } : undefined
+              isActive ? { color: "white" } : undefined
             }
           >
             <FiUser />

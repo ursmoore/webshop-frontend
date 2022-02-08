@@ -2,16 +2,21 @@
 
 .container {
   width: 100%;
+  min-width: min-content;
   height: 60px;
   background-color: #000000;
   display: flex;
   justify-content: space-between;
   font-family: "Courier New", Courier, monospace;
+  flex-wrap: nowrap;
 }
 
 .green {
-  min-width: 30%;
-  max-width: 50%;
+  /* min-width: 30%;
+  max-width: 50%; */
+  min-width: min-content;
+  max-width: max-content;
+
   height: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -25,8 +30,9 @@
 }
 
 .links {
-  margin-left: 10px;
-  margin-right: 10px;
+  min-width: min-content;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
   align-items: baseline;
@@ -34,7 +40,8 @@
 }
 
 .red {
-  min-width: 200px;
+  width: 100px;
+  min-width: min-content;
   height: 40px;
   margin-left: auto;
   margin-top: auto;
