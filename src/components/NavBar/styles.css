@@ -1,27 +1,20 @@
 /* components index.css */
 
 .container {
-  /* full width */
   width: 100%;
-  /* Fixed height */
   height: 60px;
   background-color: #0004ff;
-  /* flex box */
   display: flex;
+  justify-content: space-between;
 }
 
-.containerTwo {
-  /* full width */
-  width: 80%;
-  /* Fixed height */
+.green {
+  width: 50%;
   height: 30px;
   background-color: #1eff00;
-  /* flex box */
-  display: flex;
 }
 
-.containerThree {
-  /* full width */
+.red {
   width: 200px;
   /* Fixed height */
   height: 30px;

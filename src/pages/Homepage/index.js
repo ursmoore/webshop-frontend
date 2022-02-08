@@ -3,7 +3,7 @@
 const Homepage = () => {
   return (
     <div>
-      <h1>This is la Homepage Motherfukkaz!</h1>
+      <h1>This is la Homapache!</h1>
     </div>
   );
 };

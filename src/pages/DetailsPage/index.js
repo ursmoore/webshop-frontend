@@ -3,7 +3,7 @@
 const DetailsPage = () => {
   return (
     <div>
-      <h1>This is the DetailsPage mofoos!</h1>
+      <h1>Le Details!</h1>
     </div>
   );
 };
