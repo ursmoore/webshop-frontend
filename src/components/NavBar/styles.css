@@ -9,16 +9,25 @@
 }
 
 .green {
-  width: 50%;
-  height: 30px;
+  min-width: 30%;
+  max-width: 50%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   background-color: #1eff00;
+  flex-grow: 1;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .red {
-  width: 200px;
-  /* Fixed height */
-  height: 30px;
+  min-width: 200px;
+  height: 40px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   background-color: #ff0000;
-  /* flex box */
-  justify-content: space-between;
 }

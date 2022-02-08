@@ -12,7 +12,6 @@ const NavBar = () => {
         className="links"
         style={({ isActive }) => (isActive ? { color: "white" } : undefined)}
       ></NavLink>
-      <h1>NavBar</h1>
     </div>
   );
 };
