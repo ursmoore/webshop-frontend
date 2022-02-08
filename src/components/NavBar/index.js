@@ -7,22 +7,75 @@ const NavBar = () => {
   return (
     <div class="container">
       <div class="green">
-        <NavLink
-          to="/shop"
-          className="links"
-          style={({ isActive }) => (isActive ? { color: "white" } : undefined)}
-        >
-          TheShop Home Product Blog Shop Contact
-        </NavLink>
+        <div class="links">
+          <NavLink
+            to="/shop"
+            className="links"
+            style={({ isActive }) =>
+              isActive ? { color: "black" } : undefined
+            }
+          >
+            TheShop
+          </NavLink>
+          <NavLink
+            to="/shop"
+            className="links"
+            style={({ isActive }) =>
+              isActive ? { color: "black" } : undefined
+            }
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/shop"
+            className="links"
+            style={({ isActive }) =>
+              isActive ? { color: "black" } : undefined
+            }
+          >
+            Product
+          </NavLink>
+          <NavLink
+            to="/shop"
+            className="links"
+            style={({ isActive }) =>
+              isActive ? { color: "black" } : undefined
+            }
+          >
+            Blog
+          </NavLink>
+          <NavLink
+            to="/shop"
+            className="links"
+            style={({ isActive }) =>
+              isActive ? { color: "black" } : undefined
+            }
+          >
+            Shop
+          </NavLink>
+          <NavLink
+            to="/shop"
+            className="links"
+            style={({ isActive }) =>
+              isActive ? { color: "black" } : undefined
+            }
+          >
+            Contact
+          </NavLink>
+        </div>
       </div>
       <div class="red">
-        <NavLink
-          to="/shop"
-          className="links"
-          style={({ isActive }) => (isActive ? { color: "white" } : undefined)}
-        >
-          SEARCH
-        </NavLink>
+        <div class="find">
+          <NavLink
+            to="/shop"
+            className="links"
+            style={({ isActive }) =>
+              isActive ? { color: "black" } : undefined
+            }
+          >
+            SEARCH
+          </NavLink>
+        </div>
       </div>
       <div class="iconsBar">
         <div>
