@@ -1,0 +1,15 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+}
+
+.sideBarContainer {
+  display: flex;
+  background-color: brown;
+}
+
+.shopPageContainer {
+  display: flex;
+  background-color: cornflowerblue;
+}
