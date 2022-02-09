@@ -18,7 +18,7 @@ const ShopPageComponent = () => {
 
   return (
     <div>
-      <p>Here comes the Products!</p>
+      {/* <p>Here comes the Products!</p> */}
       {!products
         ? "Loading ..."
         : products.map((products, id) => {

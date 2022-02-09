@@ -1,18 +1,18 @@
 .block {
   width: 100%;
-  /* min-width: min-content; */
+  min-width: min-content;
   height: 400px;
   background-color: #000000;
   font-family: "Courier New", Courier, monospace;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
 .productImage {
-  background-color: red;
+  /* background-color: red; */
   display: flex;
   margin-top: 5%;
   margin-left: 5%;
