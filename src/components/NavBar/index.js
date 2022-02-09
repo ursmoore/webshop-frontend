@@ -36,13 +36,13 @@ const NavBar = () => {
             Product
           </NavLink>
           <NavLink
-            to="/shop"
+            to="/details/:id"
             className="links"
             style={({ isActive }) =>
               isActive ? { color: "black" } : undefined
             }
           >
-            Blog
+            Details
           </NavLink>
           <NavLink
             to="/shop"

@@ -48,12 +48,14 @@ import "./styles.css";
 
 // export { DetailsPage };
 
-import { DetailsPageComponent } from "../../components";
+import { DetailsPageComponent, SideBar, Footer } from "../../components";
 
 const DetailsPage = () => {
   return (
-    <div>
+    <div className="mainContainer">
+      <SideBar />
       <DetailsPageComponent />
+      <Footer />
     </div>
   );
 };

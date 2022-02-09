@@ -1,10 +1,10 @@
 .mainContainer {
   display: flex;
   flex-direction: row;
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
-.sideBarContainer {
+/* .sideBarContainer {
   display: flex;
   background-color: brown;
 }
@@ -12,4 +12,4 @@
 .shopPageContainer {
   display: flex;
   background-color: cornflowerblue;
-}
+} */

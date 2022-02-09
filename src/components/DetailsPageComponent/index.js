@@ -3,26 +3,24 @@ import "./styles.css";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { DetailsCard } from "../DetailsCard";
 
 const DetailsPageComponent = () => {
   const { id } = useParams();
 
   const [product, setProduct] = useState(null);
 
-  console.log("params", id);
-
-  const fetchProduct = async () => {
-    const response = await axios.get(`http://localhost:4000/products/${id}`);
-    console.log("res", response.data);
-    setProduct(response.data);
-  };
-
+  // console.log("params", id);
   useEffect(() => {
-    fetchProduct();
-    console.log("in the useEffect");
-  }, []);
+    const fetchProduct = async () => {
+      const response = await axios.get(`http://localhost:4000/products/${id}`);
+      console.log("response", response.data.findProductById);
+      setProduct(response.data.findProductById);
+    };
 
-  console.log("This is the product: ", product);
+    fetchProduct();
+    // console.log("in the useEffect");
+  }, [id]);
 
   return (
     <div>
@@ -30,16 +28,7 @@ const DetailsPageComponent = () => {
         "Loading"
       ) : (
         <div>
-          <div>
-            <h1>{product.title}</h1>
-          </div>
-          <div>
-            <h2>{product.description}</h2>
-          </div>
-          <div>
-            <h3>{product.rating}</h3>
-          </div>
-          <img src={product.mainImage} alt="productImage" />
+          <DetailsCard key={id} product={product} />
         </div>
       )}
     </div>
