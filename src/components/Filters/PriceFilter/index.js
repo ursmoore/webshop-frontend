@@ -1,7 +1,7 @@
 import { useState } from "react/cjs/react.development";
 
-const PriceFilter = (props) => {
-  const [price, setPrice] = useState(null);
+const PriceFilter = () => {
+  // const [price, setPrice] = useState(null);
 
   return (
     <div>
