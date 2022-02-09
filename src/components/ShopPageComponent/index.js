@@ -8,7 +8,7 @@ const ShopPageComponent = () => {
 
   async function getProducts() {
     const response = await axios.get("http://localhost:4000/products");
-    console.log("response", response.data.getAllProducts);
+    // console.log("response", response.data.getAllProducts);
     setProducts(response.data.getAllProducts);
   }
 
