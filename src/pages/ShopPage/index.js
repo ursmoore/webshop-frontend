@@ -1,5 +1,5 @@
 // ShopPage index.js
-import { ShopPageComponent, SideBar, Footer } from "../../components";
+import { ShopPageComponent, SideBar } from "../../components";
 import "./styles.css";
 
 const ShopPage = () => {
@@ -7,9 +7,6 @@ const ShopPage = () => {
     <div className="mainContainer">
       <SideBar />
       <ShopPageComponent />
-      <div>
-        <Footer />
-      </div>
     </div>
   );
 };
